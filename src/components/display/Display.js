@@ -1,4 +1,4 @@
-import React from 'react';
+import Container from '../container/Container';
 import './Display.css';
 
 const Display = () => {
@@ -28,6 +28,7 @@ const Display = () => {
             </button>
           </div>
         </div>
+        <Container />
       </div>
     </>
   );
