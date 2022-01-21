@@ -1,12 +1,13 @@
 import Main from './components/Main';
 
 import './App.css';
+import Display from './components/display/Display';
 
 const App = () => {
   return (
     <div className="container">
-      <header className="App-header">Hello React</header>
       <Main />
+      <Display />
     </div>
   );
 };

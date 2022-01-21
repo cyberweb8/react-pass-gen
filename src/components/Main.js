@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <>
       <Header />
-      <h3>Display component</h3>
+      {/* <h3>Display component</h3> */}
     </>
   );
 };
