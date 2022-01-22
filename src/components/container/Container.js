@@ -1,3 +1,4 @@
+import Button from '../button/Button';
 import './Container.css';
 
 const Container = () => {
@@ -16,7 +17,7 @@ const Container = () => {
       <div className="text-center">
         <div className="row">
           <div className="col-md-12">
-            <button className="btn password-btn">Copy Password</button>
+            <Button className="btn password-btn" label="Copy Password" />
           </div>
         </div>
       </div>

@@ -1,3 +1,4 @@
+import Button from '../button/Button';
 import Container from '../container/Container';
 import './Display.css';
 
@@ -20,12 +21,8 @@ const Display = () => {
             </div>
           </div>
           <div className="password-display-icons">
-            <button className="copy-btn">
-              <i className="far fa-copy"></i>
-            </button>
-            <button className="generate-btn">
-              <i className="fas fa-sync-alt"></i>
-            </button>
+            <Button className="copy-btn" iconClass="far fa-copy" />
+            <Button className="generate-btn" iconClass="fas fa-sync-alt" />
           </div>
         </div>
         <Container />
