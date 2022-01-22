@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import './Slider.css';
 
 const Slider = (props) => {
-  const { step, min, max, value, onChangeValue, defaultLenth } = props;
+  const { step, min, max, value, onChangeValue, defaultlength } = props;
 
   const handleChange = (max) => (e) => {
     onChangeValue(e);
@@ -19,7 +19,7 @@ const Slider = (props) => {
           max={max}
           step={step}
           value={value}
-          defaultLenth={defaultLenth}
+          defaultlength={defaultlength}
           onChange={handleChange(max)}
         />
         <span className="range-slider-value">10</span>
@@ -32,7 +32,7 @@ const Slider = (props) => {
     max: PropTypes.number.isRequired,
     step: PropTypes.number.isRequired,
     value: PropTypes.number.isRequired,
-    defaultLenth: PropTypes.number.isRequired,
+    defaultlength: PropTypes.number.isRequired,
     onChangeValue: PropTypes.func.isRequired,
   };
 };
